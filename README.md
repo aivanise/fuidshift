@@ -9,6 +9,8 @@ https://discourse.ubuntu.com/t/botched-containers-after-experimenting-with-secur
 
 run without parameters to see the syntax
 
+```
 ./fuidshift.py 
 Usage: [export DEBUG=yes]; ./fuidshift.py <directory> <offset>
-  Example (LXD shift down): sudo ./fuidshift.py /var/lib/lxd/containers/mycontainer/rootfs -1000000
+   Example (LXD shift down): sudo ./fuidshift.py /var/lib/lxd/containers/mycontainer/rootfs -1000000
+```
